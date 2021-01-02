@@ -12,3 +12,5 @@ document.querySelector(".img2").setAttribute("src","images/dice" + randomNumber2
   } else{
     document.querySelector("h1").innerHTML = "Draw!";
   }
+
+document.querySelector("button").addEventListener("click", function(){location.reload();});
